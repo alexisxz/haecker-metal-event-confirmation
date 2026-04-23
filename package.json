@@ -7,6 +7,6 @@
   },
   "scripts": {
     "login": "vercel login",
-    "dev": "vercel dev"
+    "vercel:dev": "vercel dev"
   }
 }
