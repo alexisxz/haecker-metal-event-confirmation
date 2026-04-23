@@ -190,7 +190,7 @@ export default async function handler(req, res) {
             name: `${vorname || ""} ${nachname || ""}`.trim(),
           },
         ],
-        templateId: process.env.BREVO_TEMPLATE_ID,
+        templateId: Number(process.env.BREVO_TEMPLATE_ID),
         params: {
           VORNAME: vorname || "",
           NACHNAME: nachname || "",
